@@ -1,0 +1,32 @@
+PODS:
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
+  - LCNaviHeader (0.1.4):
+    - CocoaLumberjack (~> 3.7.2)
+    - Masonry (~> 1.0.2)
+    - SVGKit (~> 2.1.0)
+  - Masonry (1.0.2)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
+
+DEPENDENCIES:
+  - LCNaviHeader (= 0.1.4)
+
+SPEC REPOS:
+  "git@github.com:muziwange/LCSpecs.git":
+    - LCNaviHeader
+  trunk:
+    - CocoaLumberjack
+    - Masonry
+    - SVGKit
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  LCNaviHeader: 38f4aeb9186bb9b690278312f1ab462e7f08dc6d
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+
+PODFILE CHECKSUM: 3ad19874acda60658012c4419c4d15e401671a05
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,26 @@
+source 'https://cdn.cocoapods.org/'
+source 'git@github.com:muziwange/LCSpecs.git'
+
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LCTools' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for 'LCTools'
+  pod 'LCNaviHeader', '0.1.4'
+
+  target 'LCToolsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LCToolsUITests' do
+    # Pods for testing
+  end
+    
+  
+
+end
